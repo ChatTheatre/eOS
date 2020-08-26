@@ -1,0 +1,6 @@
+[submodule "dgd"]
+	path = dgd
+	url = git@github.com:ChatTheatre/dgd.git
+[submodule "kernellib"]
+	path = kernellib
+	url = git@github.com:ChatTheatre/kernellib.git
