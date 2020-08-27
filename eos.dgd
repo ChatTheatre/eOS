@@ -21,10 +21,10 @@ dump_file	= "/tmp/dump";	/* dump file */
 dump_interval	= 3600;       		/* dump interval */
 
 typechecking	= 2;			/* highest level of typechecking */
-include_file	= "/kernellib/src/include/std.h";	/* standard include file */
-include_dirs	= ({ "/kernellib/src/include", "~/include" }); /* directories to search */
-auto_object	= "/kernellib/lib/auto";	/* auto inherited object */
-driver_object	= "/kernellib/sys/driver";	/* driver object */
+include_file    = "/include/std.h";     /* standard include file */
+include_dirs    = ({ "/include", "~/include" }); /* directories to search */
+auto_object     = "/kernel/lib/auto";   /* auto inherited object */
+driver_object   = "/kernel/sys/driver"; /* driver object */
 create		= "_F_create";		/* name of create function */
 
 array_size	= 4000;			/* max array size */
