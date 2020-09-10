@@ -4,3 +4,6 @@
 [submodule "kernellib"]
 	path = kernellib
 	url = git@github.com:ChatTheatre/kernellib.git
+[submodule "eOS-Doc"]
+	path = eOS-Doc
+	url = git@github.com:ChatTheatre/eOS-Doc.git
