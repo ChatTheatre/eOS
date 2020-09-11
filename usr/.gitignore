@@ -1,0 +1,3 @@
+### eOS/usr repo specific excludes ###
+
+admin   # the default admin user created on first use of DGD with eOS
