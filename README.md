@@ -4,7 +4,7 @@
 
 ## Installing eOS
 
-See https://ChatTheatre.github.io/eOS-Doc/installing.html
+See [the install instructions](https://ChatTheatre.github.io/eOS-Doc/installing.md)
 
 * TBD: Do we
    * copy files to repository eos root like phantasmal does?
