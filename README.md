@@ -4,7 +4,7 @@
 
 ## Installing eOS
 
-See [the install instructions](https://ChatTheatre.github.io/eOS-Doc/installing.md)
+See [the install instructions](https://ChatTheatre.github.io/eOS-Doc/installing.html)
 
 ## eOS Directory Structure
 
