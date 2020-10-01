@@ -42,6 +42,7 @@ private void load_settings() {
 
     memory_high = 0;
     memory_max = 0;
+    statedump_offset = 0;
     if (text = read_file(SETTINGS_FILE)) {
         /* remove all # lines */
         while (sscanf(text, "%s#%*s\n%s", before, after)) {
@@ -50,6 +51,7 @@ private void load_settings() {
 
         sscanf(text, "%*smemory_high %d\n", memory_high);
         sscanf(text, "%*smemory_max %d\n",  memory_max);
+        sscanf(text, "%*sstatedump_offset %d\n", statedump_offset);
     }
     error("missing file " + SETTINGS_FILE);
 }
@@ -60,6 +62,10 @@ int query_memory_high() {
 
 int query_memory_max() {
    return memory_max ? memory_max : 256;
+}
+
+void shutdown() {
+   ::shutdown();
 }
 
 # define MEGABYTE (1024 * 1024)
